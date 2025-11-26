@@ -1,9 +1,8 @@
-%%writefile app.py
 import streamlit as st
-from datetime import date
 
 
-st.title("Welcome to Vans Chai Shop ☕")
+
+st.title("Welcome to Vans Chai Shop ☕👩🏻‍🦰")
 st.header("Our special Combos of Chai  ")
 col1,col2,col3=st.columns(3)
 with col1:
@@ -77,3 +76,4 @@ for i, item in enumerate(bu):
 if st.button("Done"):
     st.success("Your order is successfully received")
     st.write("Njoy!!!!!! and Thankyou")
+
